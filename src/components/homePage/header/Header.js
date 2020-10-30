@@ -22,12 +22,16 @@ const Header = () => {
       <Row>
         <Col className="text-center">
           <div className="btn">
-            <p className="view-btn">
-              View My Work
+            <a
+              style={{ textDecoration: "none" }}
+              className="view-btn"
+              href="https://www.linkedin.com/in/hannan-uddin-129843158/"
+            >
+              View My Linkedin Profile
               <span className="ml-3">
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>
-            </p>
+            </a>
           </div>
         </Col>
       </Row>
