@@ -28,7 +28,7 @@ const Navbars = () => {
                 </Nav>
                 <Nav className="btn cv-btn">
                   <Nav.Link href={resume} download>
-                    Download Cv
+                    Download CV
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
