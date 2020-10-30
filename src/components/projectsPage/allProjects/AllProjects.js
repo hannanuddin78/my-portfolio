@@ -8,7 +8,7 @@ import SeeProjects from "./seeProjects/SeeProjects";
 const AllProjects = () => {
   const [allProject, setAllProjects] = useState(projectes);
   return (
-    <div className="mb-5">
+    <div className="pb-5">
       <Navbars />
       <Container>
         <Row>

@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const SeeProjects = ({ project }) => {
   return (
-    <Col md={12} className="mb-5">
+    <Col md={12} className="pb-5">
       <Row>
         <Col md={6} className="text-center">
           <img className="pr-img" src={project.img} alt="" />

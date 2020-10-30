@@ -5,7 +5,7 @@ import Navbars from "../../homePage/navbar/Navbars";
 
 const DetailsContact = () => {
   return (
-    <>
+    <div className="pb-5">
       <Navbars />
       <Container>
         <Row>
@@ -15,7 +15,7 @@ const DetailsContact = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 
