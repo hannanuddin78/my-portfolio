@@ -1,5 +1,10 @@
+.ani-app {
+  background: url(https://transitive-bullshit.github.io/react-starfield-animation/static/media/stars.492b41ed.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .header-container {
-  margin-top: 70px;
+  padding-top: 70px;
   margin-bottom: 70px;
 }
 .name-color {

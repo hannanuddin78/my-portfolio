@@ -14,6 +14,7 @@ const projectes = [
     img: creative,
     use:
       "React.js, Base64, Swiper.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
+    link: "creative-own-agency.web.app",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const projectes = [
       "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
     img: doctor,
     use: "React.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
+    link: "https://my-ema-jhon.netlify.app/",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ const projectes = [
       "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
     img: ema,
     use: "React.js, Base64, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
+    link: "ema-john-simple-my.web.app",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const projectes = [
       "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
     img: volunteer,
     use: "React.js, Base64, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
+    link: "volunteer-event.web.app",
   },
 
   {
@@ -48,6 +52,7 @@ const projectes = [
     img: travel,
     use:
       "React.js, Api, Node.js, MongoDB, Google Map, Express.js, Bootstrap, Firebase auth, Heroku",
+    link: "https://my-ema-jhon.netlify.app/",
   },
   {
     id: 6,
@@ -56,6 +61,7 @@ const projectes = [
       "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
     img: school,
     use: "Html5, Css3,  Bootstrap, Javascript",
+    link: "https://my-ema-jhon.netlify.app/",
   },
 ];
 

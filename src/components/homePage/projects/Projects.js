@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import projectes from "../../../fakedata/project/project";
 import ViewWork from "./viewWork/ViewWork";
 
@@ -9,9 +10,14 @@ const Projects = () => {
   return (
     <Container className="mb-5">
       <Row>
-        <Col md={12} className="mb-5">
+        <Col md={12} className="mb-3">
           <h1 className="text-center">PROJECTS</h1>
           <hr style={{ width: "85px", backgroundColor: "black", height: "3px" }} />
+        </Col>
+        <Col md={12} className="text-center mb-5">
+          <Link to="/portfolio">
+            <Button variant="secondary">See More Project</Button>
+          </Link>
         </Col>
       </Row>
       <Row>
