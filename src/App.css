@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.header-container {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name-color {
+  color: tomato;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.view-btn {
+  padding: 5px 15px;
+  border: 1px solid red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cv-btn {
+  border: 1px solid gray !important;
+  padding: 5px 10px !important;
 }
-
-.App-link {
-  color: #61dafb;
+.hexagon {
+  background-color: #04c2c9;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-dark {
+  background-color: #343a40 !important;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.power-icon {
+  font-size: 50px;
+}
+.contact-container {
+  background-color: #533831;
+  padding-top: 70px;
+}
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto !important;
+}
+.own-img {
+  max-height: 50%;
+  max-width: 50%;
+}
+.pr-img {
+  border: 1px solid gray;
+}
+.skills h5 {
+  height: 100%;
+  font-size: 18px;
+  padding-top: 5px;
 }
