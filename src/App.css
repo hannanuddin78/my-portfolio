@@ -16,8 +16,9 @@
 .hexagon {
   background-color: #04c2c9;
   display: inline-block;
-  height: 100px;
+  height: 80px;
   width: 100px;
+  border-radius: 50%;
 }
 .bg-dark {
   background-color: #343a40 !important;
@@ -29,7 +30,7 @@
   font-size: 50px;
 }
 .contact-container {
-  background-color: #533831;
+  background-color: rgba(11, 18, 13);
   padding-top: 70px;
 }
 .contact-form {
