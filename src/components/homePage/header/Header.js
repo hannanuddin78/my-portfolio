@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
@@ -20,18 +20,18 @@ const Header = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="text-center">
-          <div className="btn">
-            <a
-              style={{ textDecoration: "none" }}
-              className="view-btn"
+        <Col className="text-center mt-4">
+          <div>
+            <Button
+              style={{ color: "white" }}
               href="https://www.linkedin.com/in/hannan-uddin-129843158/"
+              variant="outline-secondary"
             >
               View My Linkedin Profile
               <span className="ml-3">
                 <FontAwesomeIcon icon={faArrowRight} />
               </span>
-            </a>
+            </Button>
           </div>
         </Col>
       </Row>

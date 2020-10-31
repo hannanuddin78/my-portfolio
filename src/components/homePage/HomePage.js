@@ -8,14 +8,14 @@ import Projects from "./projects/Projects";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Header />
       <Navbar />
       <About />
       <Projects />
       <Blog />
       <Contact />
-    </div>
+    </>
   );
 };
 
