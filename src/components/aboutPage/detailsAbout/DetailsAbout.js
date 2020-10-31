@@ -8,22 +8,24 @@ import WhoAmI from "./whoAmI/WhoAmI";
 const DetailsAbout = () => {
   return (
     <>
-      <Navbars />
-      <Container>
-        <Row>
-          <Col md={12}>
-            <PowerWork />
-          </Col>
-        </Row>
-        <Row>
-          <Col md={6}>
-            <WhoAmI />
-          </Col>
-          <Col md={6}>
-            <MySkill />
-          </Col>
-        </Row>
-      </Container>
+      <div style={{ backgroundColor: "#091414" }}>
+        <Navbars />
+        <Container className="pb-5">
+          <Row>
+            <Col md={12}>
+              <PowerWork />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <WhoAmI />
+            </Col>
+            <Col md={6}>
+              <MySkill />
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

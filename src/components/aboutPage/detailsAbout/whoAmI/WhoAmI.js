@@ -4,7 +4,7 @@ import hannan from "../../../../image/hannan-uddin-web-developer.jpg";
 const WhoAmI = () => {
   return (
     <div className="text-center">
-      <img className=" own-img" src={hannan} alt="" />
+      <img className="mb-3 own-img" src={hannan} alt="" />
       <h1>Who's this guy?</h1>
       <p>
         Hi, I am a Full Stack Web Developer. Experience work with both the front and back ends

@@ -9,9 +9,7 @@ const SeeProjects = ({ project }) => {
           <img className="pr-img img-fluid" src={project.img} alt="" />
         </Col>
         <Col md={6}>
-          <h1 style={{ color: "#6610f2" }} className="mb-4">
-            {project.title}
-          </h1>
+          <h1 className="mb-4">{project.title}</h1>
           <h5 className="mb-3">
             {" "}
             <span style={{ fontSize: "20px", marginRight: "10px", color: "#007bff" }}>

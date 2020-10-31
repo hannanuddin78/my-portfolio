@@ -7,6 +7,7 @@ import AllProjects from "./components/projectsPage/allProjects/AllProjects";
 import StarfieldAnimation from "react-starfield-animation";
 import AllBolg from "./components/blogPage/allBlog/AllBolg";
 import DetailsContact from "./components/contactPage/detailsContact/DetailsContact";
+import "animate.css/animate.min.css";
 
 function App() {
   return (

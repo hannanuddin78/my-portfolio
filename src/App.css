@@ -8,7 +8,7 @@
   margin-bottom: 70px;
 }
 .name-color {
-  color: tomato;
+  color: #c74414;
 }
 .view-btn {
   padding: 5px 15px;
@@ -43,8 +43,9 @@
   margin: 0 auto !important;
 }
 .own-img {
-  max-height: 50%;
+  height: 260px;
   max-width: 50%;
+  border-radius: 8%;
 }
 .pr-img {
   border: 1px solid gray;
@@ -53,4 +54,9 @@
   height: 100%;
   font-size: 18px;
   padding-top: 5px;
+}
+.svg-icon {
+  max-width: 40px;
+  height: auto;
+  padding-left: 5px;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import Typing from "react-typing-animation";
+import Spin from "react-reveal/Spin";
+import Slide from "react-reveal/Slide";
+import linKeDin from "../../../image/svg/linkedin.png";
+import OcToCat from "../../../image/svg/Octocat.png";
+import faceBook from "../../../image/svg/icons8-facebook-50.png";
 
 const Header = () => {
   return (
@@ -16,23 +18,43 @@ const Header = () => {
               <span className="name-color">Hannan Uddin Akash</span>
             </Typing>
           </h1>
-          <h2>I'm a full-stack web developer</h2>
+          <Spin>
+            <h1>I'm a full-stack web developer</h1>
+          </Spin>
         </Col>
       </Row>
       <Row>
         <Col className="text-center mt-4">
-          <div>
+          <Slide left>
             <Button
-              style={{ color: "white" }}
+              style={{ color: "white", marginBottom: "20px" }}
               href="https://www.linkedin.com/in/hannan-uddin-129843158/"
-              variant="outline-secondary"
+              variant="outline-primary"
             >
               View My Linkedin Profile
-              <span className="ml-3">
-                <FontAwesomeIcon icon={faArrowRight} />
-              </span>
+              <img className="svg-icon" src={linKeDin} alt="" />
             </Button>
-          </div>
+          </Slide>
+          <Slide right>
+            <Button
+              style={{ color: "white", marginBottom: "20px" }}
+              variant="outline-info"
+              href="https://github.com/hannanuddin78"
+            >
+              View My GitHub Profile
+              <img className="svg-icon" src={OcToCat} alt="" />
+            </Button>
+          </Slide>
+          <Slide bottom>
+            <Button
+              style={{ color: "white" }}
+              variant="outline-success"
+              href="https://www.facebook.com/syed.hannan.uddin78/"
+            >
+              Connect My FaceBook
+              <img className="svg-icon" src={faceBook} alt="" />
+            </Button>
+          </Slide>
         </Col>
       </Row>
     </Container>

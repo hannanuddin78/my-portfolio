@@ -5,22 +5,22 @@ const skills = [
   {
     name: "HTML5",
     level: 99.9,
-    color: "#6cc24a",
+    color: "#45bfbb",
   },
   {
     name: "CSS3",
     level: 99.9,
-    color: "#00758f",
+    color: "#45bfbb",
   },
   {
     name: "Bootstrap",
     level: 90,
-    color: "#e535ab",
+    color: "#45bfbb",
   },
   {
     name: "JavaScript",
     level: 80,
-    color: "#6cc24a",
+    color: "#0e4543",
   },
   {
     name: "Express JS",
@@ -35,12 +35,12 @@ const skills = [
   {
     name: "MongoDB",
     level: 99.9,
-    color: "#e535ab",
+    color: "#206966",
   },
   {
     name: "Redux",
     level: 80,
-    color: "#371777",
+    color: "#357573",
   },
   {
     name: "React JS",
