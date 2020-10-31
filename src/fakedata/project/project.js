@@ -20,16 +20,16 @@ const projectes = [
     id: 2,
     title: "Doctors-Portal",
     description:
-      "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
+      "Doctors-Portal is a Patient  service provider. It has both Doctors and Patient  lavel dashboard.Patient Can appointment, See appointment.Doctors Can see all appointment list and Update any patient appointment information.",
     img: doctor,
     use: "React.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
-    link: "https://my-ema-jhon.netlify.app/",
+    link: "https://our-doctors-portal.netlify.app",
   },
   {
     id: 3,
     title: "Ema-John",
     description:
-      "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
+      "Ema-Jhon is a e-commerce site where Customer can Buy Product.Customer have there own dashboard and see previous order.Admin Can create and manage product and see order status",
     img: ema,
     use: "React.js, Base64, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
     link: "https://ema-john-simple-my.web.app",
@@ -38,7 +38,7 @@ const projectes = [
     id: 4,
     title: "Volunteer-Network",
     description:
-      "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
+      "Volunteers who feel irreplaceable are more likely to stick around than ones that can be supplanted by any other worker.the more likely it becomes that they will introduce others to your organization, which feeds your volunteer network.",
     img: volunteer,
     use: "React.js, Base64, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
     link: "https://volunteer-event.web.app",
@@ -48,7 +48,7 @@ const projectes = [
     id: 5,
     title: "Travel-Guru",
     description:
-      "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
+      "Travel Guru is a travel agency website (This project check All firebase authentication system). Sign in a new user, Log in user, Password reset, Email Verification,Travel area map. User can Choose Place and Booking this place hotel room and also.can see this place google map",
     img: travel,
     use:
       "React.js, Api, Node.js, MongoDB, Google Map, Express.js, Bootstrap, Firebase auth, Heroku",
@@ -58,7 +58,7 @@ const projectes = [
     id: 6,
     title: "E-School",
     description:
-      "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
+      "E-School websites are crucial for creating a good first impression. Before sending their children to a school, most parents are likely to take a look at the school’s website, so the primary goal of the site would be to convince these visitors.",
     img: school,
     use: "Html5, Css3,  Bootstrap, Javascript",
     link: "https://hannanuddin78.github.io/Assicnment2/",

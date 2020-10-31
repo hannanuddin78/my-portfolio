@@ -11,6 +11,7 @@ const ContactForm = () => {
       .then(
         (result) => {
           alert("Your Massage Sent Successfully");
+          e.target = "";
         },
         (error) => {
           console.log(error.text);
