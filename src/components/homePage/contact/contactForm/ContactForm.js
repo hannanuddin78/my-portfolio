@@ -11,7 +11,9 @@ const ContactForm = () => {
       .then(
         (result) => {
           alert("Your Massage Sent Successfully");
-          e.target = "";
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("message").value = "";
         },
         (error) => {
           console.log(error.text);
@@ -23,13 +25,26 @@ const ContactForm = () => {
       <Form onSubmit={sendEmail}>
         <input type="hidden" name="contact_number" />
         <Form.Group>
-          <Form.Control type="name" placeholder="Name" name="user_name" require />
+          <Form.Control type="name" placeholder="Name" name="user_name" id="name" require />
         </Form.Group>
         <Form.Group>
-          <Form.Control type="email" placeholder="Enter email" name="user_email" require />
+          <Form.Control
+            type="email"
+            placeholder="Enter email"
+            name="user_email"
+            id="email"
+            require
+          />
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Control as="textarea" rows={3} placeholder="Your message" name="message" require />
+          <Form.Control
+            as="textarea"
+            rows={3}
+            placeholder="Your message"
+            name="message"
+            id="message"
+            require
+          />
         </Form.Group>
         <Button className="float-right" variant="primary" type="submit" value="Send">
           Submit

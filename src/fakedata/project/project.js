@@ -23,7 +23,7 @@ const projectes = [
       "Doctors-Portal is a Patient  service provider. It has both Doctors and Patient  lavel dashboard.Patient Can appointment, See appointment.Doctors Can see all appointment list and Update any patient appointment information.",
     img: doctor,
     use: "React.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
-    link: "https://our-doctors-portal.netlify.app",
+    link: "https://own-doctor-portal.web.app/",
   },
   {
     id: 3,
