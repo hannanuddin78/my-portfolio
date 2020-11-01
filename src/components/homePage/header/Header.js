@@ -62,7 +62,7 @@ const Header = () => {
           </Row>
         </Col>
         <Col md={6}>
-          <img className="img-fluid" src={myImg} alt="" />
+          <img style={{ height: "70%" }} className="img-fluid" src={myImg} alt="" />
         </Col>
       </Row>
     </Container>

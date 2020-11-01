@@ -9,8 +9,8 @@ import Projects from "./projects/Projects";
 const HomePage = () => {
   return (
     <>
-      <Header />
       <Navbar />
+      <Header />
       <About />
       <Projects />
       <Blog />
