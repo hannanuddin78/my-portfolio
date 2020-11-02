@@ -1,12 +1,7 @@
 .ani-app {
-  /* background: url(https://transitive-bullshit.github.io/react-starfield-animation/static/media/stars.492b41ed.jpg); */
   background-color: #343a40;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
 }
-.header-container {
-  padding-top: 70px;
-}
+
 .name-color {
   color: #c74414;
 }
@@ -73,4 +68,29 @@
   opacity: 1;
   visibility: visible;
   transition: all 0.5s ease;
+}
+
+/* Extra Small Devices */
+@media only screen and (max-width: 767px) {
+  .header-container h1 {
+    font-size: 24px;
+  }
+  .my-image {
+    margin-top: 50px;
+  }
+}
+
+/* Small Devices */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header-container {
+    padding-top: 40px;
+  }
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+}
+
+/* Large Devices */
+@media only screen and (min-width: 1200px) {
 }

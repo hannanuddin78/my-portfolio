@@ -10,20 +10,22 @@ const Projects = () => {
   return (
     <Container className="mb-5">
       <Row>
-        <Col md={12} className="mb-3">
+        <Col md={12} className="mb-4">
           <h1 className="text-center">PROJECTS</h1>
           <hr style={{ width: "85px", backgroundColor: "black", height: "3px" }} />
-        </Col>
-        <Col md={12} className="text-center mb-5">
-          <Link to="/portfolio">
-            <Button variant="secondary">See More Project</Button>
-          </Link>
         </Col>
       </Row>
       <Row>
         {project.slice(0, 3).map((view) => (
           <ViewWork key={view.id} view={view} />
         ))}
+      </Row>
+      <Row>
+        <Col md={12} className="text-center ">
+          <Link to="/portfolio">
+            <Button variant="secondary">See More Project</Button>
+          </Link>
+        </Col>
       </Row>
     </Container>
   );

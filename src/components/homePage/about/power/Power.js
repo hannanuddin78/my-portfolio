@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 
 const Power = ({ power }) => {
   return (
-    <Col md={3} className="text-center mb-5">
+    <Col lg={3} md={6} className="text-center mb-5">
       <div className="hexagon power-icon mb-4">
         <FontAwesomeIcon icon={power.icon} />
       </div>

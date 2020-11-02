@@ -6,20 +6,24 @@ import PowerWork from "./power/powerWork/PowerWork";
 
 const About = () => {
   return (
-    <Container>
-      <Row>
-        <Col className="text-center mb-3">
-          <h1>ABOUT</h1>
-          <hr style={{ width: "85px", backgroundColor: "black", height: "3px" }} />
-          <div className="text-center mt-4 mb-5">
+    <>
+      <Container style={{ marginTop: "-90px", marginBottom: "40px" }}>
+        <Row>
+          <Col md={12} className="text-center mb-5">
+            <h1>ABOUT</h1>
+            <hr style={{ width: "85px", backgroundColor: "black", height: "3px" }} />
+          </Col>
+        </Row>
+        <PowerWork />
+        <Row>
+          <Col md={12} className="text-center mb-5">
             <Link to="/about">
               <Button variant="secondary">See More About</Button>
             </Link>
-          </div>
-        </Col>
-      </Row>
-      <PowerWork />
-    </Container>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 };
 
