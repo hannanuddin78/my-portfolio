@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbars.css";
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import resume from "../../../image/resume/update_Resume of Hannan_Uddin.pdf";
+import resume from "../../../image/resume/Resume of Hannan_Uddin new.pdf";
 import { NavLink } from "react-router-dom";
 
 const Navbars = () => {

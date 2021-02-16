@@ -8,7 +8,7 @@ const SeeProjects = ({ project }) => {
       <Row>
         <Col md={6} className="text-center">
           <LightSpeed left>
-            <img className="pr-img img-fluid" src={project.img} alt="" />
+            <img style={{maxWidth:"352px", maxHeight:"305px"}} className="pr-img img-fluid" src={project.img} alt="" />
           </LightSpeed>
         </Col>
 

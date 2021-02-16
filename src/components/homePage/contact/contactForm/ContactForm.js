@@ -25,7 +25,7 @@ const ContactForm = () => {
       <Form onSubmit={sendEmail}>
         <input type="hidden" name="contact_number" />
         <Form.Group>
-          <Form.Control type="name" placeholder="Name" name="user_name" id="name" require />
+          <Form.Control type="name" placeholder="Name" name="user_name" id="name" require="true" />
         </Form.Group>
         <Form.Group>
           <Form.Control
@@ -33,17 +33,17 @@ const ContactForm = () => {
             placeholder="Enter email"
             name="user_email"
             id="email"
-            require
+            require="true"
           />
         </Form.Group>
-        <Form.Group controlId="exampleForm.ControlTextarea1">
+        <Form.Group>
           <Form.Control
             as="textarea"
             rows={3}
             placeholder="Your message"
             name="message"
             id="message"
-            require
+            require="true"
           />
         </Form.Group>
         <Button className="float-right" variant="primary" type="submit" value="Send">
