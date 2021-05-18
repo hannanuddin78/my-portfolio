@@ -3,7 +3,7 @@ import { faTachometerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
 import { faWindowRestore } from "@fortawesome/free-solid-svg-icons";
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import Power from "../Power";
 
 const powerMyWork = [
