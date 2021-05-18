@@ -1,19 +1,25 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ContactForm from "../../homePage/contact/contactForm/ContactForm";
-import Navbars from "../../homePage/navbar/Navbars";
+import Navbar from "../../homePage/navBarMenu/navBarMenu";
 
 const DetailsContact = () => {
   return (
     <>
       <div style={{ backgroundColor: "#1a2e4f" }}>
-        <Navbars />
+        <Navbar />
         <Container className="pb-5">
           <Row>
             <Col md={12} className="text-center mb-5">
               <h4>Feel free to contact me anytime</h4>
               <h1>Get in Touch</h1>
-              <hr style={{ width: "85px", backgroundColor: "black", height: "3px" }} />
+              <hr
+                style={{
+                  width: "85px",
+                  backgroundColor: "black",
+                  height: "3px",
+                }}
+              />
             </Col>
           </Row>
           <Row>
@@ -22,8 +28,8 @@ const DetailsContact = () => {
                 <Col md={12} className="mb-4">
                   <h3 className="mb-3">Contact Info</h3>
                   <p>
-                    Always available for freelance work if the right project <br /> comes along,
-                    Feel free to contact me!
+                    Always available for freelance work if the right project{" "}
+                    <br /> comes along, Feel free to contact me!
                   </p>
                 </Col>
               </Row>

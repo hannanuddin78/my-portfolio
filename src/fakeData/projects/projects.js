@@ -4,17 +4,16 @@ import school from "../../image/school.jpg";
 import doctor from "../../image/doctor.jpg";
 import ema from "../../image/ema.jpg";
 import travel from "../../image/travel.jpg";
-import eCommerce from "../../image/Capture.PNG"
+import eCommerce from "../../image/Capture.PNG";
 
-const projectes = [
+const projects = [
   {
     id: 1,
     title: "E-Commerce",
     description:
       "e-commerce is a product buying and selling site. Here you sell any product on the website and buy any product.  If you have a promo code, you will get a fix amount of discount for any product.",
     img: eCommerce,
-    use:
-      "React.js, Cloudinary, Swiper.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
+    use: "React.js, Cloudinary, Swiper.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
     link: "https://e-commerce-test.netlify.app/",
   },
   {
@@ -23,8 +22,7 @@ const projectes = [
     description:
       "Creative Agency is a great service provider. It has both Admin and.User lavel dashboard.User Can Make Order, Give Review, See Own Order List.Admin Can Add Service, Make Another Admin, See All Order and Update Order Info.",
     img: creative,
-    use:
-      "React.js, Base64, Swiper.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
+    use: "React.js, Base64, Swiper.js, Node.js, MongoDB, Express.js, Bootstrap, Firebase auth, Heroku",
     link: "https://creative-own-agency.web.app/",
   },
   {
@@ -61,8 +59,7 @@ const projectes = [
     description:
       "Travel Guru is a travel agency website (This project check All firebase authentication system). Sign in a new user, Log in user, Password reset, Email Verification,Travel area map. User can Choose Place and Booking this place hotel room and also.can see this place google map",
     img: travel,
-    use:
-      "React.js, Api, Node.js, MongoDB, Google Map, Express.js, Bootstrap, Firebase auth, Heroku",
+    use: "React.js, Api, Node.js, MongoDB, Google Map, Express.js, Bootstrap, Firebase auth, Heroku",
     link: "https://travel-guru-simple.web.app",
   },
   {
@@ -76,4 +73,4 @@ const projectes = [
   },
 ];
 
-export default projectes;
+export default projects;

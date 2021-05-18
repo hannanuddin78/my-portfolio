@@ -3,7 +3,7 @@ import About from "./about/About";
 import Blog from "./blog/Blog";
 import Contact from "./contact/Contact";
 import Header from "./header/Header";
-import Navbar from "./navbar/Navbars";
+import Navbar from "./navBarMenu/navBarMenu";
 import Projects from "./projects/Projects";
 
 const HomePage = () => {

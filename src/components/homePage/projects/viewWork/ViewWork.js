@@ -7,7 +7,7 @@ const ViewWork = ({ view }) => {
     <Col md={4} className="mb-5">
       <Zoom left>
         <Card>
-          <img className="img-fluid" src={view.img} alt="" />
+          <img className="viewWorkImg" src={view.img} alt="" />
           <div className="card-hover d-flex align-items-center justify-content-center">
             <div>
               <h3>{view.title}</h3>

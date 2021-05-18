@@ -1,10 +1,10 @@
 import React from "react";
-import "./Navbars.css";
+import "./navBarMenu.css";
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import resume from "../../../image/resume/Resume of Hannan_Uddin new.pdf";
 import { NavLink } from "react-router-dom";
 
-const Navbars = () => {
+const navBarMenu = () => {
   return (
     <div className="bg-dark">
       <Container className="mb-5">
@@ -65,4 +65,4 @@ const Navbars = () => {
   );
 };
 
-export default Navbars;
+export default navBarMenu;

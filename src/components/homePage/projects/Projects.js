@@ -2,17 +2,19 @@ import React from "react";
 import { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import projectes from "../../../fakedata/project/project";
+import projects from "../../../fakeData/projects/projects";
 import ViewWork from "./viewWork/ViewWork";
 
 const Projects = () => {
-  const [project, setProject] = useState(projectes);
+  const [project] = useState(projects);
   return (
     <Container className="mb-5">
       <Row>
         <Col md={12} className="mb-4">
           <h1 className="text-center">PROJECTS</h1>
-          <hr style={{ width: "85px", backgroundColor: "black", height: "3px" }} />
+          <hr
+            style={{ width: "85px", backgroundColor: "black", height: "3px" }}
+          />
         </Col>
       </Row>
       <Row>

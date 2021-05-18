@@ -1,15 +1,15 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import PowerWork from "../../homePage/about/power/powerWork/PowerWork";
-import Navbars from "../../homePage/navbar/Navbars";
 import MySkill from "./mySkill/MySkill";
 import WhoAmI from "./whoAmI/WhoAmI";
+import Navbar from "../../homePage/navBarMenu/navBarMenu";
 
 const DetailsAbout = () => {
   return (
     <>
       <div style={{ backgroundColor: "#091414" }}>
-        <Navbars />
+        <Navbar />
         <Container className="pb-5">
           <Row>
             <Col md={12}>
