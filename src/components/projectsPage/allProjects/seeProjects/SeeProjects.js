@@ -4,15 +4,15 @@ import LightSpeed from "react-reveal/LightSpeed";
 
 const SeeProjects = ({ project }) => {
   return (
-    <Col md={12}>
+    <Col xs={12} md={12}>
       <Row className="pdDetails mt-5 justify-content-center align-items-center">
-        <Col md={6} className="text-center">
+        <Col xs={12} md={6} className="text-center xs_pd">
           <LightSpeed left>
             <img className="pr-img" src={project.img} alt="" />
           </LightSpeed>
         </Col>
 
-        <Col md={6} className="">
+        <Col xs={12} md={6}>
           <LightSpeed right>
             <h1 className="mb-4">{project.title}</h1>
             <h5 className="mb-3" style={{ textAlign: "justify" }}>

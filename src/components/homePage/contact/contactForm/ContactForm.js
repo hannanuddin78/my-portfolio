@@ -47,7 +47,7 @@ const ContactForm = () => {
           />
         </Form.Group>
         <Button className="float-right" variant="primary" type="submit" value="Send">
-          Submit
+          Send Your Message
         </Button>
       </Form>
     </div>

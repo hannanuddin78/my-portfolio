@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 
 const Power = ({ power }) => {
   return (
-    <Col lg={3} md={6} className="text-center mb-5">
+    <Col lg={3} sm={6} className="text-center mb-5">
       <div className="hexagon power-icon mb-4">
         <FontAwesomeIcon icon={power.icon} />
       </div>
@@ -15,9 +15,4 @@ const Power = ({ power }) => {
 };
 
 export default Power;
-
-// import fast from "../../../image/icon/speed.png";
-// import responsive from "../../../image/icon/download.jpg";
-// import light from "../../../image/icon/light-11-91412.webp";
-// import rocket from "../../../image/icon/rocket-906-738952.webp";
-// import Power from "./power/Power";
+// 
